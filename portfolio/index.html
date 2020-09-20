@@ -5,27 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e29e29c394.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <h1>Ikko's Portfolio Site (β)</h1>
-        <h1><a href="https://twitter.com/IkkoKojima"><i class="fab fa-twitter"></i></a></h1>
-        <h1><a href="https://www.facebook.com/ikko.kojoma/"><i class="fab fa-facebook-square"></i></a></h1>
+        <h1 class="header-main">Ikko Kojima</h1>
+        <div class="header-icons">
+            <h1><a href="https://twitter.com/IkkoKojima"><i class="header-content fab fa-twitter"></i></a></h1>
+            <h1><a href="https://www.facebook.com/ikko.kojoma/"><i
+                        class="header-content fab fa-facebook-square"></i></a>
+            </h1>
+        </div>
     </header>
-    <div class="profile">
-        <p class="profile-text">手段にこだわらず<br />プロダクトを生み出し続け<br />昨日より多くの人に価値を届ける</p>
+
+    <div class="profile-bg">
+        <div class="profile">
+            <img class="profile-image"
+                src="https://res.cloudinary.com/chot-help/image/upload/v1600597438/profile_h4gyjf.png"
+                alt="profile-image">
+            <p class="profile-text">手段にこだわらず<br />プロダクトを生み出し続け<br />昨日より多くの人に価値を届ける</p>
+        </div>
     </div>
+
     <h1>プロダクト</h1>
     <ul>
         <li><a href="https://color-palette-flont.firebaseapp.com/">IMAGE to PALETTE</a></li>
         <li><a href="https://liveslives.net/">おうちで楽しむ水族館「Lives:Lives」</a></li>
         <li><a href="https://chot.help/">[開発中]エンジニアx教育xギグワーク「chot.help」</a></li>
     </ul>
+
     <h1>スキル</h1>
     <ul>
         <li>ビジネススキル</li>
@@ -64,6 +76,7 @@
             <li>簡単な画像編集</li>
         </ul>
     </ul>
+
     <footer></footer>
 </body>
 
