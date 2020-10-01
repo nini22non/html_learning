@@ -1,0 +1,11 @@
+.header{
+    @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+    color: rgba(255,255,255,0.4);
+    font-size: 40pt;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-image: url(./fireflower.jpeg);
+    position: relative;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1000px;
+}
